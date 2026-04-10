@@ -202,7 +202,7 @@ Access the deployed app here:
 ### 📖 Medium Blog (Detailed Project Explanation)
 
 Read the full case study here:
-[Click to read](https://medium.com/@prathamharer1603/i-was-just-watching-youtube-then-i-accidentally-built-a-startup-funding-tracker-f0f0a7ebae79)
+[Click Here to read](https://medium.com/@prathamharer1603/i-was-just-watching-youtube-then-i-accidentally-built-a-startup-funding-tracker-f0f0a7ebae79)
 
 ### 📊 Project Presentation (PPT Slides)
 
