@@ -1,4 +1,4 @@
-<h1 align="center">🇮🇳 Indian Startup Funding Tracker</h1>
+<h1 align="center">Indian Startup Funding Tracker</h1>
 
 ---
 
@@ -196,7 +196,7 @@ pip install -r requirements.txt
 ### 🚀 Live Streamlit Application
 
 Access the deployed app here:
-[Click Here to access](#)
+[Click Here to access](https://indian-startup-funding-tracker.streamlit.app/)
 
 ### 📖 Medium Blog (Detailed Project Explanation)
 
@@ -227,4 +227,4 @@ PRs welcome! If you find a missing funding round, feel free to open an issue.
 
 ---
 
-<p align="center">Made with ❤️ by <b>YOUR NAME</b> • Indian Startup Funding Tracker</p>
+<p align="center">Made with ❤️ by <b>PRATHAM HARER</b> • Indian Startup Funding Tracker</p>
