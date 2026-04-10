@@ -219,6 +219,7 @@ Watch the full project demo here:
 ## 📅 Data Updates
 
 Data is sourced from public news and updated weekly. Original tracking started January 2024.
+Last updated - 10/04/2026
 
 ---
 
