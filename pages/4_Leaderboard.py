@@ -5,7 +5,7 @@ st.title("🏆 Leaderboard")
 
 df = load_data()
 
-top_companies = df.groupby("company")["amount_($m)"].sum().sort_values(ascending=False).head(10)
+top_companies = df.groupby("company")["amount_($m)"].sum().sort_values(ascending=False).head(40)
 
 st.subheader("Top Funded Companies")
-st.dataframe(top_companies)
+st.table(top_companies)
