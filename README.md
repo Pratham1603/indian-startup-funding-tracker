@@ -87,3 +87,16 @@ This project solves these problems by converting fragmented funding data into a 
 ---
 
 ## 🧱 Workflow Architecture
+Notion Database / CSV
+↓
+Data Cleaning & Preprocessing
+↓
+Search & Filtering Engine
+↓
+Aggregation & Grouping (Sector / Series / Date)
+↓
+Visualization Layer (Charts & Trends)
+↓
+Interactive Dashboard (Streamlit)
+
+---
