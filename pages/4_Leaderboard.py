@@ -1,5 +1,7 @@
 import streamlit as st
 from utils.data_loader import load_data
+from utils.sidebar import show_sidebar
+show_sidebar()
 
 st.title("🏆 Leaderboard")
 

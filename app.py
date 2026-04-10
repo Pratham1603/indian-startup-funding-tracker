@@ -1,4 +1,6 @@
 import streamlit as st
+from utils.sidebar import show_sidebar
+show_sidebar()
 
 # Page config
 st.set_page_config(

@@ -2,6 +2,8 @@ import streamlit as st
 import matplotlib.pyplot as plt
 import pandas as pd
 from utils.data_loader import load_data
+from utils.sidebar import show_sidebar
+show_sidebar()
 
 st.set_page_config(layout="wide")
 
