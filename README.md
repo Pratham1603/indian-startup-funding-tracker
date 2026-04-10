@@ -29,14 +29,15 @@ The complete workflow covers fuzzy company search, sector and series filtering, 
 ### Explore
 
 ![App Preview](images/3.png)
+![App Preview](images/4.png)
 
 ### Charts
 
-![App Preview](images/4.png)
+![App Preview](images/5.png)
 
 ### Leaderboard
 
-![App Preview](images/5.png)
+![App Preview](images/6.png)
 
 ---
 
