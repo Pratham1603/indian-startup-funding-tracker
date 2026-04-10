@@ -1,97 +1,89 @@
-# 🇮🇳 Indian Startup Funding Tracker
-
-A Streamlit dashboard that tracks Indian startup funding rounds from 2024 onwards — updated weekly. Search companies, filter by sector and series, explore trends, and find the most-funded startups across industries.
+<h1 align="center">🇮🇳 Indian Startup Funding Tracker</h1>
 
 ---
 
-## 🚀 Features
-
-- 🔍 **Search** — fuzzy search by company name
-- 🎛️ **Filter** — by sector, funding series, amount range, and date
-- 📊 **Charts** — sector-wise funding, weekly trends, series distribution
-- 🏆 **Leaderboard** — top funded companies with news source links
-- 📥 **Export** — download filtered results as CSV
+<h2 align="center">Interactive Dashboard for Tracking Indian Startup Funding Trends</h2>
 
 ---
 
-## 🗂️ Project Structure
+## 📌 Project Overview
 
-```
-indian-startup-funding-tracker/
-│
-├── app.py                  # Main Streamlit entry point
-├── data/
-│   └── funding_data.csv    # Exported Notion table (updated weekly)
-├── pages/
-│   ├── 1_Search.py         # Company search & detail card
-│   ├── 2_Explore.py        # Filter + sortable table
-│   ├── 3_Charts.py         # Visual analytics
-│   └── 4_Leaderboard.py    # Top funded companies
-├── utils/
-│   └── data_loader.py      # Cached data loading & preprocessing
-├── requirements.txt
-└── README.md
-```
+Indian Startup Funding Tracker is a data-driven Streamlit web application designed to monitor and analyze startup funding activity across India from 2024 onwards.
+
+The goal of this project is to transform raw funding data into actionable insights through an intuitive, interactive dashboard.
+
+It enables users to explore funding rounds, identify high-growth sectors, track weekly investment trends, and discover top-funded startups — all in one place.
 
 ---
 
-## 🛠️ Tech Stack
+## 📈 Application Preview
 
-| Tool | Purpose |
-|---|---|
-| Streamlit | App framework |
-| pandas | Data manipulation |
-| plotly | Interactive charts |
-| rapidfuzz | Fuzzy company name search |
-| Notion API *(optional)* | Live data sync |
+### 🔍 Search Interface  
+![App Preview](images/search.png)
 
----
+### 🎛️ Explore & Filter  
+![App Preview](images/explore.png)
 
-## ⚡ Getting Started
+### 📊 Charts & Trends  
+![App Preview](images/charts.png)
 
-```bash
-# 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/indian-startup-funding-tracker.git
-cd indian-startup-funding-tracker
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Add your data
-# Export your Notion table as CSV → save to data/funding_data.csv
-
-# 4. Run the app
-streamlit run app.py
-```
+### 🏆 Leaderboard  
+![App Preview](images/leaderboard.png)
 
 ---
 
-## 📋 Data Schema
+## 🎯 Problem Statement
+
+Startup funding data is scattered across multiple news sources and platforms, making it difficult to:
+
+* Track funding trends over time  
+* Identify top-performing sectors  
+* Analyze investment stages (Seed, Series A, etc.)  
+* Discover high-growth startups  
+
+The challenge was to:
+
+* Build a centralized dataset of funding rounds  
+* Enable fast and flexible filtering  
+* Provide meaningful visual insights  
+* Create a clean and scalable data exploration interface  
+
+This project solves these problems by converting fragmented funding data into a structured analytical platform.
+
+---
+
+## 📊 Dataset
+
+* **Format:** `.csv` (Exported from Notion)
+* **Type:** Structured tabular dataset
+* **Coverage:** Indian startup funding rounds (2024 → present)
+* **Update Frequency:** Weekly
+* **Source:** Public news articles
+
+### Data Schema
 
 | Column | Description |
 |---|---|
-| `company_name` | Name of the startup |
-| `amount_usd` | Funding amount in USD (millions) |
-| `series` | Funding stage (Seed, Pre-A, A, B, C, etc.) |
+| `company_name` | Startup name |
+| `amount_usd` | Funding amount (in USD millions) |
+| `series` | Funding stage (Seed, Pre-A, A, B, etc.) |
 | `sector` | Industry sector |
-| `headquarters` | City / State |
-| `date` | Date of funding announcement |
-| `source_url` | News article link |
+| `headquarters` | Location (City/State) |
+| `date` | Funding announcement date |
+| `source_url` | News source link |
 
 ---
 
-## 📅 Data Updates
+## ⚙️ Tools & Technologies Used
 
-Data is sourced from public news and updated weekly. Original tracking started January 2024.
+* **Python** – Core programming language  
+* **Pandas** – Data cleaning and transformation  
+* **Plotly** – Interactive visualizations  
+* **Matplotlib** – Static chart rendering  
+* **RapidFuzz** – Fuzzy search implementation  
+* **Streamlit** – Multi-page web application framework  
+* **Notion API (Optional)** – Automated data syncing  
 
 ---
 
-## 🙌 Contributing
-
-PRs welcome! If you find a missing funding round, feel free to open an issue.
-
----
-
-## 📬 Connect
-
-Built by [@YOUR_TWITTER](https://twitter.com/YOUR_TWITTER) as part of a public ML/data learning journey.
+## 🧱 Workflow Architecture
