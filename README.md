@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Indian Startup Funding Tracker.jpg" alt="WhatsApp Chat Analyzer" width="1000"/>
+  <img src="isft.jpg" alt="isft" width="1000"/>
 </p>
 
 ---
