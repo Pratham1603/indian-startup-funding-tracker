@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="isft.jpg" alt="isft" width="1000"/>
+  <img src="images/isft.jpg" alt="isft" width="1000"/>
 </p>
 
 ---
