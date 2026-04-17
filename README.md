@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/isft.jpg" alt="isft" width="1000"/>
+  <img src="images/indian.jpg" alt="isft" width="1000"/>
 </p>
 
 ---
