@@ -1,8 +1,10 @@
-<h1 align="center">Indian Startup Funding Tracker</h1>
+<p align="center">
+  <img src="Indian Startup Funding Tracker.jpg" alt="WhatsApp Chat Analyzer" width="1000"/>
+</p>
 
 ---
 
-<h2 align="center">A Weekly-Updated Dashboard for Indian Startup Funding Rounds (2024 Onwards)</h2>
+<h3 align="center">A Weekly-Updated Dashboard for Indian Startup Funding Rounds (2024 Onwards)</h3>
 
 ---
 
